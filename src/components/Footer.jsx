@@ -7,8 +7,8 @@ const Footer = () => {
       <footer class="flex justify-center px-4 py-2 text-white bg-gradient-to-b from-black to-gray-800 border-t-4 border-indigo-500 border-in">
         <div class="container py-6">
           <h1 class="text-lg font-bold text-center lg:text-2xl">
-            Looking For A Web Developer? <br /> Shoot Me An Email and I'll
-            Contact You As Soon As I Can
+            Looking for a web developer? <br /> Shoot me an email, I'll
+            contact you as soon as I can
           </h1>
 
           <div className="flex justify-center mt-6">
