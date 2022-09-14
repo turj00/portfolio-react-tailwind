@@ -14,7 +14,7 @@
 
 /* text shadow */
 @layer utilities {
-    @variants responsive {
+    @layer responsive {
         .text-shadow {
           text-shadow: 5px 5px 10px gray;
         }
