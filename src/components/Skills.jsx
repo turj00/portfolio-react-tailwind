@@ -61,7 +61,7 @@ const Experience = () => {
       name="Skills" id="skills"
       className="bg-gradient-to-b from-black to-gray-800 w-full p-20"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-2 flex flex-col justify-center w-full h-full text-white">
         <div className="text-center p-4">
           <p className="text-4xl font-bold border-b-4 border-yellow-400 p-2 inline">
             Skills
@@ -69,7 +69,7 @@ const Experience = () => {
       
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-12 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-2 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
